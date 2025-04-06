@@ -1,9 +1,10 @@
 title: Moe Meylane's Blog
 description: A personal blog built with Jekyll and GitHub Pages
+author: Moemeylane
 baseurl: "" # leave blank unless in a subfolder
 url: "https://moemeylane.github.io"
 
-theme: "mmistakes/minimal-mistakes"
+remote_theme: mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-feed
