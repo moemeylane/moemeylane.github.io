@@ -1,10 +1,38 @@
-title: Moemeylane's Blog
-description: Documenting my journey as a developer
-author: Moemeylane
-markdown: kramdown
+title: Moe Meylane's Blog
+description: A personal blog built with Jekyll and GitHub Pages
+baseurl: "" # leave blank unless in a subfolder
+url: "https://moemeylane.github.io"
 
-remote_theme: mmistakes/minimal-mistakes
+theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+paginate: 5
+paginate_path: "/page:num"
+
+# Optional: Enable future-dated posts if you want them to show
+future: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
+# For minimal-mistakes-specific configuration
+minimal_mistakes_skin: "default"
+markdown: kramdown
+kramdown:
+  input: GFM
