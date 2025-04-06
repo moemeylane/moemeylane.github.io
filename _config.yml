@@ -1,0 +1,7 @@
+title: Moemeylane's Blog
+description: Documenting my journey as a developer
+theme: jekyll-theme-minimal
+author: Moemeylane
+markdown: kramdown
+plugins:
+  - jekyll-feed
