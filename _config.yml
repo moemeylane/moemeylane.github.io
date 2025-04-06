@@ -1,7 +1,10 @@
 title: Moemeylane's Blog
 description: Documenting my journey as a developer
-theme: jekyll-theme-minimal
 author: Moemeylane
 markdown: kramdown
+
+remote_theme: mmistakes/minimal-mistakes
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
