@@ -40,5 +40,6 @@ markdown: kramdown
 kramdown:
   input: GFM
 #css style  
-sass:
-  style: compressed
+include:
+  - assets/css/style.css
+
