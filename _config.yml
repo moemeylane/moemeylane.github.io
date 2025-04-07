@@ -5,6 +5,8 @@ baseurl: "" # leave blank unless in a subfolder
 url: "https://moemeylane.github.io"
 
 remote_theme: mmistakes/minimal-mistakes
+<link rel="stylesheet" href="/assets/css/style.css">
+
 
 plugins:
   - jekyll-feed
@@ -37,3 +39,6 @@ minimal_mistakes_skin: "default"
 markdown: kramdown
 kramdown:
   input: GFM
+#css style  
+sass:
+  style: compressed
